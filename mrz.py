@@ -350,12 +350,12 @@ class ExampleApp(QtWidgets.QMainWindow, Ui_MainWindow):
         birth_date_y =  birth_date[4:8]
         expiry_date_y = expiry_date[4:8]
 
-        if (int(birth_date_y) % 4 == 0) and (2023 % 100 != 0) or (2023 % 400 == 0):
+        if (int(birth_date_y) % 4 == 0) and (int(birth_date_y) % 100 != 0) or (int(birth_date_y) % 400 == 0):
             leap_year_b = ['3002', '3102', '3104', '3106', '3109', '3111']
         else:
             leap_year_b = ['2902','3002', '3102', '3104', '3106', '3109', '3111']
 
-        if (int(expiry_date_y) % 4 == 0) and (2023 % 100 != 0) or (2023 % 400 == 0):
+        if (int(expiry_date_y) % 4 == 0) and (int(expiry_date_y) % 100 != 0) or (int(expiry_date_y) % 400 == 0):
             leap_year_e = ['3002', '3102', '3104', '3106', '3109', '3111']
         else:
             leap_year_e = ['2902','3002', '3102', '3104', '3106', '3109', '3111']
