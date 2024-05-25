@@ -7,15 +7,15 @@ OCR-B 10 BT font required for correct display of data
 
 # Main:
 
-![](screenshots\scrsht1.jpg)
+![](screenshots/scrsht1.jpg)
 
 # Example for passports:
 
 
-![](screenshots\scrsht2.jpg)
+![](screenshots/scrsht2.jpg)
 
 # Example for ID's:
 
-![](screenshots\scrsht3.jpg)
+![](screenshots/scrsht3.jpg)
 
 
